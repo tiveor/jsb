@@ -1,0 +1,22 @@
+{
+  "name": "jsb-cli",
+  "version": "0.1.0",
+  "description": "",
+  "main": "bin/index.js",
+  "bin": {
+    "jsb-cli": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alvaro Orellana",
+  "license": "MIT",
+  "dependencies": {
+    "@tiveor/scg": "^0.1.4",
+    "commander": "^5.1.0",
+    "fast-csv": "^4.3.0",
+    "fs": "0.0.1-security",
+    "jsmidgen": "^0.1.5",
+    "vexflow": "^3.0.9"
+  }
+}
